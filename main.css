@@ -1,0 +1,73 @@
+body{
+  font-size: 20px;
+  background: grey;
+}
+
+header{
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 10px;
+
+
+}
+
+div{
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+input{
+  height: 75px;
+  width: 300px;
+  box-sizing: border-box;
+  font-size: 40px;
+  border-style: inset;
+  border-width: thick;
+}
+
+button{
+  width: 125px;
+  height: 75px;
+  font-size: 30px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  border-width: thick;
+  border-radius: 5px;
+
+}
+
+hr{
+
+}
+
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#container{
+  justify-content: space-between;
+
+}
+
+
+.recipeBox{
+  border: 2px solid green;
+  width: 23.5%;
+  height: 50%;
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
